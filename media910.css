@@ -21,6 +21,13 @@
         font-size: 18px;
     }
 }
+@media only screen and (max-width: 768px){
+    .slider-hdn p{
+        font-size: 33px !important;
+        font-weight: normal !important;
+        text-align: center;
+    }
+}
 @media only screen and (max-width: 552px){
     .slider-hdn p{
         font-size: 37px !important;
@@ -30,7 +37,7 @@
 }
 @media only screen and (max-width: 320px){
     .slider-hdn p{
-        font-size: 29px;
+        font-size: 29px !important;
         font-weight: normal !important;
         text-align: center;
     }
