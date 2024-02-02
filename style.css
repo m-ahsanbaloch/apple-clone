@@ -72,8 +72,8 @@
 .slider-img {
   padding: 0px !important;
   margin: 0px !important;
-  /* width: 100%;
-    height: 100vh; */
+  width: 100%;
+    /* height: 100vh; */
 }
 .slider-img img {
   position: relative;
@@ -81,7 +81,7 @@
   padding: 0px !important;
   margin-top: 40px;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .slider-img-inner {
   position: absolute;
@@ -109,12 +109,12 @@
     /* align-self: flex-end; */
 }
 .textimage img{
-    width: 150px;
+    /* width: 150px; */
     height: 50px;
     object-fit: contain;
 }
 .slider-hdn p{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     text-align: center;
 }
