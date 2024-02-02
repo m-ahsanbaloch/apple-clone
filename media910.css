@@ -1,0 +1,23 @@
+@media only screen and (max-width: 910px) {
+    .hid{
+        display: none;
+    }
+    .menu{
+        display: block !important;
+    }
+    .navbar{
+        justify-content: space-between!important;
+    }
+
+    .nav-right{
+        width: 20% !important;
+    }
+    .nav-list{
+        flex-wrap: nowrap !important;
+ 
+    }
+    .logo {
+        color: #DADADA;
+        font-size: 18px;
+    }
+}

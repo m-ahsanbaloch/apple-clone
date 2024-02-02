@@ -1,0 +1,120 @@
+.main {
+  padding: 0px !important ;
+  margin: 0px !important;
+  /* height: 900px; */
+}
+@font-face {
+  font-family: apple;
+  src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+}
+* {
+  font-family: apple;
+}
+.navbare-back {
+  position: fixed !important;
+  background-color: rgba(0, 0, 0, 0.75) !important;
+  /* opacity: 70; */
+  z-index: 1 !important;
+}
+.navbare-main {
+  /* position: fixed; */
+  background-color: transparent;
+  /* opacity: 50; */
+  color: #fff !important;
+}
+.nav-main {
+  /* position: fixed; */
+}
+.bg-dark {
+  color: #fff !important;
+  background-color: transparent !important;
+}
+.logo i {
+  color: #dadada;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.logo i:hover {
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease-in-out all;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav-list > li {
+  margin-left: 20px;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #c5c5c6;
+}
+.nav-list > li:hover {
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease-in-out all;
+}
+.nav-right i {
+  font-size: 16px;
+  /* margin-left: 20px; */
+}
+.menu {
+  display: none;
+}
+/* ======nav-bar---end=== */
+.slider {
+  padding: 0px !important;
+  /* margin: 0px !important; */
+}
+.slider-img {
+  padding: 0px !important;
+  margin: 0px !important;
+  /* width: 100%;
+    height: 100vh; */
+}
+.slider-img img {
+  position: relative;
+  height: 100vh;
+  padding: 0px !important;
+  margin-top: 40px;
+  width: 100%;
+  object-fit: cover;
+}
+.slider-img-inner {
+  position: absolute;
+  width: 100%;
+  margin-top: 40px;
+  height: 100%;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.slide-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.textimage{
+    width: 200px;
+    height: 100px;
+    /* background-color: red; */
+    /* align-self: flex-end; */
+}
+.textimage img{
+    width: 150px;
+    height: 50px;
+    object-fit: contain;
+}
+.slider-hdn p{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
